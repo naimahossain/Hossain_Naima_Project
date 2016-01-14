@@ -1,0 +1,15 @@
+Compile Client:
+javac projectclient/ProjectClient.java projectclient/TCPClient.java projectclient/IUdpClient.java projectclient/UDPGetClient.java projectclient/UDPPutClient.java projectclient/Utility.java projectclient/IO.java projectclient/ErrorHandler.java
+
+
+Compile Server:
+javac projectserver/ProjectServer.java projectserver/TCPServer.java projectserver/Client.java projectserver/UDPGetServer.java projectserver/UDPPutServer.java projectserver/Utility.java projectserver/IO.java projectserver/ErrorHandler.java
+
+
+Run Client:
+java projectclient.ProjectClient
+
+
+
+Run Server:
+java projectserver.ProjectServer
