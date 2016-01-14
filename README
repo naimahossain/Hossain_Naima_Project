@@ -1,0 +1,2 @@
+Reliable UDP file server in JAVA
+1. all file transfer happens in UDP but initial connection is via TCP
